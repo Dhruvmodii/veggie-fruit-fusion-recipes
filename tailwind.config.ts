@@ -52,6 +52,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom recipe app colors
+				veggie: {
+					DEFAULT: '#4CAF50', // Vibrant green
+					light: '#8BC34A',
+					dark: '#388E3C',
+				},
+				fruit: {
+					DEFAULT: '#FF9800', // Orange
+					light: '#FFB74D',
+					dark: '#F57C00',
+				},
+				fusion: {
+					DEFAULT: '#9C27B0', // Purple
+					light: '#CE93D8',
+					dark: '#7B1FA2',
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
